@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-style {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: aquamarine;
+}
+
+div {
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    background-color: dodgerblue;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: "smooth";
+}
+#app{
+    font-size: 25px;
+    color:azure;
+    font-family: sans-serif;
+}
+#game{
+    font-size: 25px;
+    color:azure;
+    font-family: sans-serif;
+}
+img{
+    transition: transform.2s;
+}
+img:hover{
+    transform: scale(0.9)
+}
+#chatbot{
+    font-size: 25px;
+    color:azure;
+    font-family: sans-serif;
+}
+#contact iframe{
+    width: 100%;
+}
+#myCarousel{
+    background-color: aqua;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
